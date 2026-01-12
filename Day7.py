@@ -160,3 +160,16 @@
 # n = int(input("Enter the number : "))
 # for i in  range(1,11):
 #     print(n*i)
+
+# =========================
+
+# for else
+# -executes the else block after the loop
+# ex:
+
+# for i in range(3):
+#     print(i)
+# else:
+#     print("Loop finished Successfully")
+
+
