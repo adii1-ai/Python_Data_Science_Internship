@@ -20,7 +20,7 @@ print(2**3)'''
 # Identifiers
 
 # Identifiers are the unique name to any value, class and the functions.
-# it should nat start with unique character/Symbol and the number.
+# it should not start with unique character/Symbol and the number.
 # It should start with underscore or simple english letters.
 
 
@@ -60,7 +60,7 @@ emproll => Emproll'''
 # 1024 KB = 1 MB
 # 1024 MB = 1 GB
 # 1024 GB = 1 TB
-# 1024 TB = 1 
+# 1024 TB = 1 PB
 
 
 # Data Types (Variables)
