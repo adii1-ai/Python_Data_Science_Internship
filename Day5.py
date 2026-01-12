@@ -107,21 +107,21 @@ print(no2) #40
 
 # Bitwise Operator
 
-# &,
-
-
-
-
-
+# &  -> Bitwise AND
+# `  -> Bitwise OR
+# ^  -> Bitwise XOR
+# ~  -> Bitwise Not
+# >> -> left Shift
+# << -> Right Shift
 
 
 # Ternary Operator
-# Syntax ->> result = "if True " if(condition)
+# Syntax ->> result = "if Condition True " if(condition) else "if Condition false"
 
-# n python- result="if true" if condition else "if false"
+# In python- result="if true" if condition else "if false"
 # Example 
 Byear = int(input("Enter your Birth year"))
-result = "You are GenZ" if Byear <= 2000 else "You are not GenZ"
+result = "You are GenZ" if Byear >= 2000 else "You are not GenZ"
 print(result)
 
 
@@ -138,7 +138,7 @@ print("OM" not in data) # True
 
 
 # Identity Operator
-# -# is, is not
+# is, is not
 
 a = 10
 b = a
