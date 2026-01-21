@@ -54,6 +54,14 @@ print(movie_1.intersection(movie_2))
 
 print(movie_1.difference(movie_2))
 
+# Symmetric Difference
+
+a = {1,2,5,8,3}
+b = {8, 9, 10,1,3}
+print(a ^ b)
+# or
+print(a.symmetric_difference(b))
+
 # =====================================
 
 # pop()
@@ -92,4 +100,34 @@ print(emp_1)
 # ========================================
 
 # discard()
-# -
+# -It is used to remove the specific element from the set
+# -If elemet is not present then it will not raise an error.
+
+emp_1.discard("Divya")
+print(emp_1)
+
+# ========================================
+
+# copy()
+# - copy() method is used to make Shallow copy of of a data
+# - copy() method creates an independent copy od a set
+
+x = {1,2,3,4}
+y = x.copy()
+
+y.update(["A", "B","C"])
+print(y)  # Shallow copy does not able to make changes in both the sets
+print(x)
+
+# ===========================================
+
+# frozenset
+ 
+# - frozenset is  immutable 
+# - frozenset is a set that cannot be changed like tuple
+# - frozenset([])
+
+numbers = frozenset([1,2,3,4,5,6])
+print(numbers)
+
+# numbers.add(10) # Gives error because frozenset is Immutable
