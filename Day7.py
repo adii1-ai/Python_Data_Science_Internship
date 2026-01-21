@@ -1,7 +1,7 @@
 # Match Case (Switch case)
 
 # -Used to handle multiple cases at the same time
-# - Handle multiple cases at same time
+# -Handle multiple cases at same time
 
 # Syntax :
 
