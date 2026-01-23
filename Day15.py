@@ -62,15 +62,14 @@
 # Types of Error:
 
 # ZeroDivisionError -> Ocuurs when try to divide a number by zero
-# TypeError -> 
-
-
-
+# ValueError -> Invalid data type
+# FileNotFoundError -> occurs when we try to access the file which is not present on that path/system
+# TypeError -> Occurs when we try the wrong operation on data types
 
 
 # =============================================
 
-# block 
+# Blocks in Exception Handelling
 
 # try - 
 # -It includes the code that may ganerate the error
@@ -85,8 +84,8 @@
 # else-
 # -else block executed when there is no error occurs.
 
-# ex:
 
+# ex:
 
 # try:
 #     num=int(input("Enter Number :"))
@@ -119,14 +118,16 @@
 
 
 # ==============================================
-# Task - Take Username Input From User
-# Rules:
 
+# Task - Take Username Input From User
+
+# Rules:
 # cannot be empty
 # length must be at least 4
 # must not contain  spaces
-
 # if fails- raise ValueError
+
+# --->>>
 
 # try:
 #     userName = input("Enter your Name: ")
