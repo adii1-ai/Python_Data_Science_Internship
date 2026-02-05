@@ -33,7 +33,7 @@ class tesla(Car):
     def carDetails(self,_brand,color,price):
         self.details(_brand,color,price)
     
-    # must be write absract method in child class
+    # must be overriden absract method in child class
     def start(self):
         print("tesla is car started....")
     
